@@ -1,0 +1,9 @@
+framework module MLKitNaturalLanguage {
+  export *
+  module * { export * }
+  link "z"
+  link framework "CoreFoundation"
+  link framework "Foundation"
+  link framework "QuartzCore"
+  link framework "Security"
+}

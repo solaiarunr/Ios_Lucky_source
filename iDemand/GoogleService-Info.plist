@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>736381350050-qb1tjc03nqe26c1e2okep4eesvai6a4n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.736381350050-qb1tjc03nqe26c1e2okep4eesvai6a4n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>736381350050-c0vqg4ehda66ojq6b436fn2eic1o5as3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCiFwC7B_BNQlynZw1Zyt3VWyKIVIAnHvo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>736381350050</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.lucki</string>
+	<key>PROJECT_ID</key>
+	<string>lucki-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lucki-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:736381350050:ios:152e32239fcd15c7cca7fb</string>
+	<key>DATABASE_URL</key>
+	<string>https://lucki-app-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

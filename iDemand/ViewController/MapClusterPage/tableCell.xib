@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="KGk-i7-Jjw" customClass="tableCell" customModule="iDemand" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhF-ct-PZT">
+                        <rect key="frame" x="20" y="8.5" width="191" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkB-Fe-QUn">
+                        <rect key="frame" x="20" y="43.5" width="191" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.16078431372549018" green="0.023529411764705882" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foW-47-wGM">
+                        <rect key="frame" x="20" y="73" width="191" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_profile_sel" translatesAutoresizingMaskIntoConstraints="NO" id="MGJ-ly-Nda">
+                        <rect key="frame" x="241" y="13.5" width="75" height="72.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="e3i-P1-H3n"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="4gi-dC-l7C">
+                        <rect key="frame" x="323" y="43" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="cAs-02-xtg"/>
+                            <constraint firstAttribute="width" constant="15" id="vaH-yu-1FG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" name="TextWhite"/>
+                <constraints>
+                    <constraint firstItem="4gi-dC-l7C" firstAttribute="leading" secondItem="MGJ-ly-Nda" secondAttribute="trailing" constant="7" id="0DP-h7-77U"/>
+                    <constraint firstItem="MGJ-ly-Nda" firstAttribute="leading" secondItem="xhF-ct-PZT" secondAttribute="trailing" constant="30" id="3Q7-L0-PyX"/>
+                    <constraint firstItem="foW-47-wGM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="H2N-lm-u9M"/>
+                    <constraint firstItem="ZkB-Fe-QUn" firstAttribute="top" secondItem="xhF-ct-PZT" secondAttribute="bottom" constant="8" id="HDV-WS-e0M"/>
+                    <constraint firstItem="MGJ-ly-Nda" firstAttribute="leading" secondItem="foW-47-wGM" secondAttribute="trailing" constant="30" id="RIn-SJ-2is"/>
+                    <constraint firstItem="MGJ-ly-Nda" firstAttribute="leading" secondItem="ZkB-Fe-QUn" secondAttribute="trailing" constant="30" id="UAV-M0-JzG"/>
+                    <constraint firstAttribute="bottom" secondItem="MGJ-ly-Nda" secondAttribute="bottom" constant="15" id="Xcr-Ai-YPY"/>
+                    <constraint firstItem="ZkB-Fe-QUn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ZSY-wt-iz4"/>
+                    <constraint firstItem="foW-47-wGM" firstAttribute="top" secondItem="ZkB-Fe-QUn" secondAttribute="bottom" constant="8" id="bc5-f4-Dr4"/>
+                    <constraint firstItem="ZkB-Fe-QUn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="3.5" id="hWv-H2-JL6"/>
+                    <constraint firstItem="MGJ-ly-Nda" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13.5" id="kBe-vG-sXh"/>
+                    <constraint firstItem="4gi-dC-l7C" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="l2H-Bd-hws"/>
+                    <constraint firstAttribute="trailing" secondItem="4gi-dC-l7C" secondAttribute="trailing" constant="15" id="t78-Nu-JBu"/>
+                    <constraint firstItem="xhF-ct-PZT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="uz9-gS-vda"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrowImage" destination="4gi-dC-l7C" id="JwN-dg-ZnY"/>
+                <outlet property="locationLbl" destination="foW-47-wGM" id="J09-TM-G8z"/>
+                <outlet property="taskeNameLbl" destination="ZkB-Fe-QUn" id="s3F-f7-62m"/>
+                <outlet property="taskerNameLbl" destination="xhF-ct-PZT" id="KaQ-dW-qgR"/>
+                <outlet property="userImage" destination="MGJ-ly-Nda" id="LNi-Sr-yxY"/>
+            </connections>
+            <point key="canvasLocation" x="-217" y="82"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="right_arrow" width="64" height="64"/>
+        <image name="tab_profile_sel" width="32" height="32"/>
+        <namedColor name="TextWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
